@@ -15,3 +15,7 @@ bool l_insert(list *liste, void *data, int index);
 
 bool l_remove(list *liste, int index);
 void l_clear(list *liste);
+
+bool l_forEach(list *liste, void (*func)(void *));
+
+void *l_get(list *liste, int index);
