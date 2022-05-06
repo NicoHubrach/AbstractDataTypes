@@ -1,4 +1,4 @@
-#include "queue/queue.h"
+#include "AbstractDataTypes/queue.h"
 
 #include <stdlib.h>
 #include <stdbool.h>
