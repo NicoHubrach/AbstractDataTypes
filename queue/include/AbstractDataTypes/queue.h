@@ -16,7 +16,7 @@ queue *q_create();
  * Frees the given Queue
  * If the Queue is not empty, all Nodes will be freed as well
  **/
-void q_destroy();
+void q_destroy(queue *schlange);
 
 /**
  * Appends the data to the queue
