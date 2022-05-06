@@ -1,4 +1,4 @@
-cmake_minimum_required(3.23.1)
+cmake_minimum_required(VERSION 3.23.1)
 project(AbstractDataTypes VERSION 1.0)
 
 add_subdirectory(queue)
